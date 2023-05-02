@@ -1,0 +1,89 @@
+
+[
+  {
+    "id": 1,
+    "nombre": "Barra de Pole Dance de Acero Inoxidable",
+    "precio": 150,
+    "stock": 76,
+    "foto": "https://example.com/barra-de-pole-dance-de-acero-inoxidable.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Shorts de Pole Dance con Encaje",
+    "precio": 25,
+    "stock": 32,
+    "foto": "https://example.com/shorts-de-pole-dance-con-encaje.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Zapatos de Pole Dance de Tacón Alto",
+    "precio": 60,
+    "stock": 21,
+    "foto": "https://example.com/zapatos-de-pole-dance-de-tacon-alto.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Grips para Pole Dance en Polvo",
+    "precio": 12,
+    "stock": 90,
+    "foto": "https://example.com/grips-para-pole-dance-en-polvo.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Anillo de Resistencia para Pole Dance",
+    "precio": 30,
+    "stock": 15,
+    "foto": "https://example.com/anillo-de-resistencia-para-pole-dance.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Camiseta de Pole Dance para Hombre",
+    "precio": 20,
+    "stock": 45,
+    "foto": "https://example.com/camiseta-de-pole-dance-para-hombre.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Pelota de Equilibrio para Pole Dance",
+    "precio": 35,
+    "stock": 54,
+    "foto": "https://example.com/pelota-de-equilibrio-para-pole-dance.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Cintas de Estiramiento para Pole Dance",
+    "precio": 18,
+    "stock": 67,
+    "foto": "https://example.com/cintas-de-estiramiento-para-pole-dance.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Traje de Competición de Pole Dance",
+    "precio": 200,
+    "stock": 8,
+    "foto": "https://example.com/traje-de-competicion-de-pole-dance.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Shorts de Pole Dance para Hombre",
+    "precio": 28,
+    "stock": 76,
+    "foto": "https://example.com/shorts-de-pole-dance-para-hombre.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Barra de Pole Dance de Latón",
+    "precio": 130,
+    "stock": 12,
+    "foto": "https://example.com/barra-de-pole-dance-de-laton.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Aros de Pole Dance",
+    "precio": 40,
+    "stock": 42,
+    "foto": "https://example.com/aros-de-pole-dance.jpg"
+  }
+
+  ]
+  
