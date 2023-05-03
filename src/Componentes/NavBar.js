@@ -9,7 +9,7 @@ return (
         <div className="botones">
             <NavLink to="/product" className="Productos"> Poles </NavLink>
             <NavLink to="/" className="quienesSomos"> Quienes Somos</NavLink>
-            <NavLink to="/" className="zzz"> Suplementos</NavLink>   
+            <NavLink to="/" className="contactanos"> Contactanos</NavLink>   
         </div>  
         <CartWidget className="CartWidget"/>
     </nav>

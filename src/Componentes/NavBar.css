@@ -47,23 +47,24 @@
     display: flex;
    }
   
-   .botones button{
+   .botones a{
+    text-decoration: none;
     border: none;
     text-align: center;
-    font-size: 30px;
-    margin: 4px 2px;
+    font-size: 25px;
+    margin: 4px 20px;
     cursor: pointer;
     height: 100%;
-    width: 200px;
-    font-family: 'Felipa', cursive;
+    max-width: 200px;
     transition: all 0.5s ease-out;
+    color: rgba(0, 0, 0, 0.63);
     }
   
-  .botonPoles {
+  .Productos {
     background: none;
   }
   
-  .botonPoles:hover {
+  .Productos:hover {
     background-image: url(./CartWidget/assets/polelogo1.jpg);
     background-size:contain;
     background-repeat: no-repeat;
@@ -73,11 +74,11 @@
     scale: 1.1;
   }
   
-  .botonIndumentaria {
+  .quienesSomos {
     background: none;
   }
   
-  .botonIndumentaria:hover {
+  .quienesSomos:hover {
     background-image: url(./CartWidget/assets/polelogo2.jpg);
     background-size:contain;
     background-repeat: no-repeat;
@@ -87,11 +88,11 @@
     scale: 1.1;
   }
   
-  .botonSuplementos {
+  .contactanos {
     background: none;
   }
   
-  .botonSuplementos:hover {
+  .contactanos:hover {
     background-image: url(./CartWidget/assets/polelogo3.jpg);
     background-size:contain;
     background-repeat: no-repeat;
