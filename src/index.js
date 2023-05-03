@@ -6,14 +6,16 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 import { Product } from './Productos/Productos';
 import { ProductosDetalle } from './Productos/ProductosDetalle';
+import NavBar  from "./Componentes/NavBar.js"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <BrowserRouter>
+  <NavBar/>
   <Routes>
     <Route path='/' element={<App/>}/>
-    <Route path='/Product' element={<Product/>}/>
+    <Route path='/product' element={<Product/>}/>
     <Route path='/products/:productId' element={<ProductosDetalle/>}/>
     <Route path='/*' element={<App/>}/>
 

@@ -45,5 +45,3 @@ export const Product  = () => {
   )
 }
 
-
-//product_list.filter(product =>product.id<2).map( product
