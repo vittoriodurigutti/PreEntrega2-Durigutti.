@@ -12,15 +12,18 @@ export const ProductosDetalle = ({id}) => {
     const product = data.find (product => product.id == productId)
 return (
     <>
+    <button onClick={onBack}>Volver</button>
     <div className="card">
-        <div className="cardBody">
-            <h5 className="cardTitle">{product.nombre}</h5>
-            <p className="cardText"> {product.precio}</p>
-            <p className="cardText"> {product.stock}</p>
+        <div className="cardImage">
+            <img src="" alt="" />
         </div>
-        <button onClick={onBack}>Volver</button>
+        <div className="cardBody">
+            <h1 className="cardTitle">{product.nombre}</h1>
+            <p className="cardText"> Precio: ${product.precio}</p>
+            <p className="cardText"> Nos quedan: {product.stock}</p>
+        </div>
+        
     </div>
-    <h1>Detalle del Producto: {productId}</h1>
     </>
 )
 }

@@ -1,0 +1,11 @@
+.card {
+    display: flex;
+    margin: 10px 15%;
+    gap: 10px;
+    border: solid 3px;
+    height: auto;
+}
+
+.cardImage{
+    width: 90%;
+}
