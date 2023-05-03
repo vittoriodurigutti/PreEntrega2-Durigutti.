@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom'
 import product_list from '../Componentes/ListaProductos.json'
+import "./Productos.css"
 
 export const Product  = () => {
 
@@ -25,7 +26,7 @@ export const Product  = () => {
 
   return (
     <>
-      <h1> Productos </h1>
+      <h1 className='tituloProductos'> Productos </h1>
       <select id="filtro" value={filtro} onChange={handleFiltroChange}>
         <option value="todos">Todos</option>
         <option value="menor_a_2">Pole</option>
@@ -35,7 +36,7 @@ export const Product  = () => {
       <ul>
         {
           productosFiltrados.map(product => (
-            <li key={product.id}>
+            <li className='listaProductos' key={product.id}>
               <Link to={`/product/${product.id}`}>{product.nombre}</Link>
             </li>
           ))
