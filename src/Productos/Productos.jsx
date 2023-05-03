@@ -36,7 +36,7 @@ export const Product  = () => {
         {
           productosFiltrados.map(product => (
             <li key={product.id}>
-              <Link to={`/Product/${product.id}`}>{product.nombre}</Link>
+              <Link to={`/product/${product.id}`}>{product.nombre}</Link>
             </li>
           ))
         }

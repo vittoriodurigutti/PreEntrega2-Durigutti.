@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
-import { Product } from './Productos/Productos';
-import { ProductosDetalle } from './Productos/ProductosDetalle';
+import { Product } from './Productos/Productos.jsx';
+import { ProductosDetalle } from './Productos/ProductosDetalle.jsx';
 import NavBar  from "./Componentes/NavBar.js"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,7 +16,7 @@ root.render(
   <Routes>
     <Route path='/' element={<App/>}/>
     <Route path='/product' element={<Product/>}/>
-    <Route path='/products/:productId' element={<ProductosDetalle/>}/>
+    <Route path='/product/:productId' element={<ProductosDetalle />}/>
     <Route path='/*' element={<App/>}/>
 
   </Routes>
